@@ -23,4 +23,5 @@ find_package(Qt6 ${PROJECT_VERSION} CONFIG
     OPTIONAL_COMPONENTS
 )
 
-qt_build_repo()
+#qt_build_repo()
+add_subdirectory(src)
